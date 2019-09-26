@@ -12,8 +12,8 @@ public abstract class Clock {
         return String.valueOf(this.localTime);
     }
 
-    public void setTime(int utcZeroTime) {
-        this.localTime = Clock.Hour(utcZeroTime + this.offset);
+    public void setTime(int utc) {
+        this.localTime = Clock.Hour(utc + this.offset);
     }
 
     private static int Hour(int hour) {

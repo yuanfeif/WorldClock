@@ -2,7 +2,7 @@ public class PhoneClock extends Clock {
 
     private UtcTime utcTime;
 
-    public PhoneClock(int i) {
+    public PhoneClock(int i) {      //i和之前一样也是输入的偏差
         super(i);
     }
 
